@@ -1,5 +1,5 @@
 {
-  "name": "khaganate",
+  "name": "minimal-vue-app",
   "private": true,
   "scripts": {
     "build": "webpack"
