@@ -1,7 +1,6 @@
 module.exports = [
   {
-    mode: 'production',
-    devtool: 'source-map',
+    mode: 'development',
     entry: './pm.js',
     output: {
       filename: 'pm.bundle.js',
