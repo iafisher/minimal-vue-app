@@ -1,4 +1,4 @@
-Run the following:
+Minimal example of a Vue app using NPM, without all the bells and whistles that the Vue CLI adds.Produces a bundled JavaScript file suitable for use in an existing web application.
 
 ```
 git clone https://github.com/iafisher/minimal-vue-app.git
@@ -8,7 +8,3 @@ npm run build
 ```
 
 Then open `index.html` in a browser.
-
-Expected result: The page displays "Hello, world!"
-
-Actual result: The page displays nothing, although Vue does load and run.
