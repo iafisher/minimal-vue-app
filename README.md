@@ -8,3 +8,7 @@ npm run build
 ```
 
 Then open `index.html` in a browser.
+
+Expected result: 'Hello, world!' from `components/App.vue`.
+
+Actual result: No visible output, and a console warning from Vue that the `App` component is missing a template.
