@@ -2,6 +2,7 @@
   <p>Hello, {{ name }}!</p>
 </template>
 
+
 <script>
 module.exports = {
   data() {
@@ -9,3 +10,10 @@ module.exports = {
   },
 };
 </script>
+
+
+<style scoped>
+p {
+  text-align: center;
+}
+</style>

@@ -9,12 +9,23 @@ module.exports = {
         test: /\.vue$/,
         loader: 'vue-loader',
       },
+      {
+        test: /\.css$/,
+        use: [
+          'vue-style-loader',
+          {
+            loader: 'css-loader',
+            options: { esModule: false },
+          },
+        ],
+      },
     ],
   },
   plugins: [
     new VueLoaderPlugin(),
   ],
   entry: './index.js',
+
   // For runtime compilation of templates.
   resolve: {
     alias: {
