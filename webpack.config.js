@@ -15,9 +15,6 @@ module.exports = {
     new VueLoaderPlugin(),
   ],
   entry: './index.js',
-  // output: {
-  //   filename: 'bundle.js',
-  // },
   // For runtime compilation of templates.
   resolve: {
     alias: {
