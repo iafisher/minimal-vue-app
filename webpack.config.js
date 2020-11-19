@@ -15,6 +15,7 @@ module.exports = {
           'vue-style-loader',
           {
             loader: 'css-loader',
+            // https://github.com/vuejs/vue-style-loader/issues/46#issuecomment-670624576
             options: { esModule: false },
           },
         ],
