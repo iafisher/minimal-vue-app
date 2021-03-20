@@ -1,20 +1,19 @@
-const { VueLoaderPlugin } = require('vue-loader');
-
+const { VueLoaderPlugin } = require("vue-loader");
 
 module.exports = {
-  mode: 'development',
+  mode: "development",
   module: {
     rules: [
       {
         test: /\.vue$/,
-        loader: 'vue-loader',
+        loader: "vue-loader",
       },
       {
         test: /\.css$/,
         use: [
-          'vue-style-loader',
+          "vue-style-loader",
           {
-            loader: 'css-loader',
+            loader: "css-loader",
             // https://github.com/vuejs/vue-style-loader/issues/46#issuecomment-670624576
             options: { esModule: false },
           },
@@ -22,10 +21,8 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new VueLoaderPlugin(),
-  ],
-  entry: './src/main.js',
+  plugins: [new VueLoaderPlugin()],
+  entry: "./src/main.js",
   output: {
     filename: "bundle.js",
   },
@@ -33,7 +30,7 @@ module.exports = {
   // For runtime compilation of templates.
   resolve: {
     alias: {
-      vue: 'vue/dist/vue.esm-bundler.js',
+      vue: "vue/dist/vue.esm-bundler.js",
     },
   },
 };
