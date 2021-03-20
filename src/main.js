@@ -1,4 +1,5 @@
-const Vue = require("vue");
-const AppComponent = require("./App.vue");
+import * as Vue from "vue";
 
-Vue.createApp(AppComponent.default).mount("#app");
+import AppComponent from "./App.vue";
+
+Vue.createApp(AppComponent).mount("#app");
