@@ -15,7 +15,7 @@
 <span class="prompt">&gt;  </span>npm run build</code></pre>
 
     <p>Then, add</p>
-    <pre><code>&lt;script src="dist/main.js"&gt;&lt;script&gt;</code></pre>
+    <pre><code>&lt;script src="dist/bundle.js"&gt;&lt;script&gt;</code></pre>
     <p>
       to your HTML template, and start editing the files in the
       <code>src/</code> directory. Or, open <code>index.html</code> in your

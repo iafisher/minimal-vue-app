@@ -12,7 +12,7 @@ npm run build
 Then, add
 
 ```
-<script src="dist/main.js"></script>
+<script src="dist/bundle.js"></script>
 ```
 
 to your HTML template, and start editing the files in the `src/` directory.
