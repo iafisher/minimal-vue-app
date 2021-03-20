@@ -15,4 +15,4 @@ Then, add
 <script src="dist/main.js"></script>
 ```
 
-to your HTML template, and start editing `components/App.vue`.
+to your HTML template, and start editing `src/App.vue`.

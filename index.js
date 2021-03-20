@@ -1,4 +1,4 @@
 const Vue = require('vue');
-const AppComponent = require('./components/App.vue');
+const AppComponent = require('./src/App.vue');
 
 Vue.createApp(AppComponent.default).mount('#app');
