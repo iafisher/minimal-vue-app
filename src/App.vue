@@ -31,25 +31,16 @@
 
     <hr />
 
-    <p>To prove this isn't just a static HTML page...</p>
-    <p>
-      <label
-        >Enter your name and Vue will say hello:
-        <input v-model="name" autocomplete="off" spellcheck="false"
-      /></label>
-    </p>
-    <p v-show="name.length > 0" class="greeting">
-      Hello, <span class="festive">{{ name }}</span
-      >!
-    </p>
+    <!-- Use another Vue component. -->
+    <simple-greeting />
   </main>
 </template>
 
 <script>
+import SimpleGreeting from "./SimpleGreeting.vue";
+
 export default {
-  data() {
-    return { name: "" };
-  },
+  components: { SimpleGreeting },
 };
 </script>
 
@@ -86,20 +77,5 @@ code {
 .prompt {
   user-select: none;
   opacity: 25%;
-}
-
-input {
-  font-size: 1.2rem;
-}
-
-.greeting {
-  margin-top: 20px;
-  font-size: 1.4rem;
-  text-align: center;
-}
-
-.festive {
-  color: #ff5722;
-  font-weight: bold;
 }
 </style>
