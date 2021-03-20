@@ -2,7 +2,8 @@
   "name": "minimal-vue-app",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack --watch"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.2",
