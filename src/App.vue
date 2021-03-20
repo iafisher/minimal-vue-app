@@ -17,8 +17,9 @@
     <p>Then, add</p>
     <pre><code>&lt;script src="dist/main.js"&gt;&lt;script&gt;</code></pre>
     <p>
-      to your HTML template, and start editing <code>src/App.vue</code>. Or,
-      open <code>index.html</code> in your browser to see this page.
+      to your HTML template, and start editing the files in the
+      <code>src/</code> directory. Or, open <code>index.html</code> in your
+      browser to see this page.
     </p>
 
     <p>

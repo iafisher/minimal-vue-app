@@ -25,7 +25,7 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
   ],
-  entry: './index.js',
+  entry: './src/main.js',
 
   // For runtime compilation of templates.
   resolve: {
