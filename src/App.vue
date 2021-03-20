@@ -2,7 +2,7 @@
   <main>
     <h1>Minimal Vue App</h1>
     <p>
-      This is a minimal example of a Vue app. It builds with
+      This is a minimal example of a Vue 3 app. It builds with
       <a href="https://webpack.js.org/">Webpack</a> into a single bundled
       JavaScript file that can be used by any backend framework.
     </p>

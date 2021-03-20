@@ -1,4 +1,4 @@
-A minimal example of a Vue app. Produces a bundled JavaScript file suitable for use in an existing web application.
+A minimal example of a Vue 3 app. Produces a bundled JavaScript file suitable for use in an existing web application.
 
 Clone it to jump-start your own Vue project:
 
